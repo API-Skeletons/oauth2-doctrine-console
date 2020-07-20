@@ -24,7 +24,7 @@
     },
     "extra": {
         "laminas": {
-            "component": "ApiSkeletongs\\OAuth2\\Doctrine\\Console",
+            "component": "ApiSkeletons\\OAuth2\\Doctrine\\Console",
             "config-provider": "ApiSkeletons\\OAuth2\\Doctrine\\Console\\ConfigProvider"
         }
     }
