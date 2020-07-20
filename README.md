@@ -1,5 +1,5 @@
-Console Management of an Apigility Doctrine OAuth2 server
-=========================================================
+Console Management of an OAuth2 for Doctrine Server for Laminas
+===============================================================
 
 [![Gitter](https://badges.gitter.im/api-skeletons/open-source.svg)](https://gitter.im/api-skeletons/open-source)
 [![Patreon](https://img.shields.io/badge/patreon-donate-yellow.svg)](https://www.patreon.com/apiskeletons)
