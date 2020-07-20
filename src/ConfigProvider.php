@@ -1,6 +1,6 @@
 <?php
 
-namespace ZF\OAuth2\Doctrine\Console;
+namespace ApiSkeletons\OAuth2\Doctrine\Console;
 
 class ConfigProvider
 {

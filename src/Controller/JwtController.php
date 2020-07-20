@@ -1,16 +1,13 @@
 <?php
 
-namespace ZF\OAuth2\Doctrine\Console\Controller;
+namespace ApiSkeletons\OAuth2\Doctrine\Console\Controller;
 
-use Zend\Console\Request as ConsoleRequest;
-use Zend\Console\Adapter\AdapterInterface as Console;
-use Zend\Console\ColorInterface as Color;
-use Zend\Console\Prompt;
 use RuntimeException;
-use ZF\OAuth2\Doctrine\Entity;
-use Doctrine\Common\Persistence\ObjectManager;
-use DoctrineModule\Persistence\ObjectManagerAwareInterface;
-use DoctrineModule\Persistence\ProvidesObjectManager;
+use ApiSkeletons\OAuth2\Doctrine\Entity;
+use Laminas\Console\Request as ConsoleRequest;
+use Laminas\Console\Adapter\AdapterInterface as Console;
+use Laminas\Console\ColorInterface as Color;
+use Laminas\Console\Prompt;
 
 final class JwtController extends AbstractConsoleController
 {

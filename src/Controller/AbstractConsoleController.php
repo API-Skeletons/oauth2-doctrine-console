@@ -1,14 +1,14 @@
 <?php
 
-namespace ZF\OAuth2\Doctrine\Console\Controller;
+namespace ApiSkeletons\OAuth2\Doctrine\Console\Controller;
 
-use Zend\Mvc\Console\Controller\AbstractConsoleController as ZendAbstractConsoleController;
-use Zend\Console\Adapter\AdapterInterface as Console;
+use Laminas\Mvc\Console\Controller\AbstractConsoleController as LaminasAbstractConsoleController;
+use Laminas\Console\Adapter\AdapterInterface as Console;
 use Doctrine\Common\Persistence\ObjectManager;
 use DoctrineModule\Persistence\ObjectManagerAwareInterface;
 use DoctrineModule\Persistence\ProvidesObjectManager;
 
-abstract class AbstractConsoleController extends ZendAbstractConsoleController implements
+abstract class AbstractConsoleController extends LaminasAbstractConsoleController implements
     ObjectManagerAwareInterface
 {
     use ProvidesObjectManager;

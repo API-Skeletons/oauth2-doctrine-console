@@ -1,13 +1,13 @@
 <?php
 
-namespace ZF\OAuth2\Doctrine\Console\Controller;
+namespace ApiSkeletons\OAuth2\Doctrine\Console\Controller;
 
-use Zend\View\Model\ViewModel;
-use Zend\Console\Request as ConsoleRequest;
-use Zend\Console\Adapter\AdapterInterface as Console;
-use Zend\Console\ColorInterface as Color;
-use Zend\Console\Prompt;
 use RuntimeException;
+use Laminas\Console\Adapter\AdapterInterface as Console;
+use Laminas\Console\ColorInterface as Color;
+use Laminas\Console\Prompt;
+use Laminas\Console\Request as ConsoleRequest;
+use Laminas\View\Model\ViewModel;
 
 class ScopeController extends AbstractConsoleController
 {

@@ -1,31 +1,31 @@
 {
-    "name": "api-skeletons/zf-oauth2-doctrine-console",
-    "description": "Console management of an Apigility Doctrine OAuth2 server",
+    "name": "api-skeletons/oauth2-doctrine-console",
+    "description": "Console management of an OAuth2 for Doctrine server",
     "license": "MIT",
     "keywords": [
         "doctrine",
         "console",
         "oauth2",
-        "apigility"
+        "laminas"
     ],
     "require": {
-        "php": "^7.1",
-        "api-skeletons/zf-oauth2-doctrine": "~2.0 || ^3.0",
-        "zendframework/zend-mvc-console": "~1.1"
+        "php": "^7.3",
+        "api-skeletons/oauth2-doctrine": "^5.0",
+        "laminas/laminas-mvc-console": "^1.2"
     },
     "autoload": {
         "psr-4": {
-            "ZF\\OAuth2\\Doctrine\\Console\\": "src/",
-            "ZFTest\\OAuth2\\Doctrine\\Console\\": "test/"
+            "ApiSkeletons\\OAuth2\\Doctrine\\Console\\": "src/",
+            "ApiSkeletonsTest\\OAuth2\\Doctrine\\Console\\": "test/"
         },
         "classmap": [
             "Module.php"
         ]
     },
     "extra": {
-        "zf": {
-            "component": "ZF\\OAuth2\\Doctrine\\Console",
-            "config-provider": "ZF\\OAuth2\\Doctrine\\Console\\ConfigProvider"
+        "laminas": {
+            "component": "ApiSkeletongs\\OAuth2\\Doctrine\\Console",
+            "config-provider": "ApiSkeletons\\OAuth2\\Doctrine\\Console\\ConfigProvider"
         }
     }
 }

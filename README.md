@@ -3,18 +3,13 @@ Console Management of an Apigility Doctrine OAuth2 server
 
 [![Gitter](https://badges.gitter.im/api-skeletons/open-source.svg)](https://gitter.im/api-skeletons/open-source)
 [![Patreon](https://img.shields.io/badge/patreon-donate-yellow.svg)](https://www.patreon.com/apiskeletons)
-[![Total Downloads](https://poser.pugx.org/api-skeletons/zf-oauth2-doctrine-console/downloads)](https://packagist.org/packages/api-skeletons/zf-oauth2-doctrine-console)
-
-Versions
---------
-
-Version 1.x is for php 5.5 to 7.0.  Version 2.0 and up is for PHP 7.1 and up.
+[![Total Downloads](https://poser.pugx.org/api-skeletons/oauth2-doctrine-console/downloads)](https://packagist.org/packages/api-skeletons/oauth2-doctrine-console)
 
 
 About
 -----
 
-This repository provides console routes to manage a headless OAuth2 server.
+This repository provides console routes to manage an [OAuth2 for Doctrine](https://github.com/API-Skeletons/oauth2-doctrine) server.
 
 
 Installation
@@ -23,7 +18,7 @@ Installation
 Installation of this module uses composer. For composer documentation, please refer to [getcomposer.org](http://getcomposer.org/).
 
 ```sh
-$ php composer.phar require api-skeletons/zf-oauth2-doctrine-console "*"
+$ php composer.phar require api-skeletons/oauth2-doctrine-console "*"
 ```
 
 Add this module to your application's configuration:
@@ -31,7 +26,7 @@ Add this module to your application's configuration:
 ```php
 'modules' => array(
    ...
-   'ZF\OAuth2\Doctrine\Console',
+   'ApiSkeletons\OAuth2\Doctrine\Console',
 ),
 ```
 
@@ -64,5 +59,5 @@ Console Routes
 
 * `oauth2:jwt:list` List all JWT.
 
-For the connecting side of JWT, [zf-oauth2-client](https://github.com/API-Skeletons/zf-oauth2-client) provides a command line tool to generate a JWT reqeust.  See also http://bshaffer.github.io/oauth2-server-php-docs/grant-types/jwt-bearer/
+For the connecting side of JWT see http://bshaffer.github.io/oauth2-server-php-docs/grant-types/jwt-bearer/
 

@@ -1,13 +1,13 @@
 <?php
 
-namespace ZF\OAuth2\Doctrine\Console\Controller;
+namespace ApiSkeletons\OAuth2\Doctrine\Console\Controller;
 
 use RuntimeException;
-use Zend\Console\Request as ConsoleRequest;
-use Zend\Console\Adapter\AdapterInterface as Console;
-use Zend\Console\ColorInterface as Color;
-use Zend\Console\Prompt;
-use ZF\OAuth2\Doctrine\Entity;
+use Laminas\Console\Request as ConsoleRequest;
+use Laminas\Console\Adapter\AdapterInterface as Console;
+use Laminas\Console\ColorInterface as Color;
+use Laminas\Console\Prompt;
+use ApiSkeletons\OAuth2\Doctrine\Entity;
 
 class PublicKeyController extends AbstractConsoleController
 {
