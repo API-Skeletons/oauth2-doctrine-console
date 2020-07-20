@@ -1,6 +1,6 @@
 {
     "name": "api-skeletons/oauth2-doctrine-console",
-    "description": "Console management of an OAuth2 for Doctrine server",
+    "description": "Console management of an OAuth2 for Doctrine Server for Laminas",
     "license": "MIT",
     "keywords": [
         "doctrine",
