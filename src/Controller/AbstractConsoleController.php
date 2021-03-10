@@ -4,7 +4,7 @@ namespace ApiSkeletons\OAuth2\Doctrine\Console\Controller;
 
 use Laminas\Mvc\Console\Controller\AbstractConsoleController as LaminasAbstractConsoleController;
 use Laminas\Console\Adapter\AdapterInterface as Console;
-use Doctrine\Common\Persistence\ObjectManager;
+use Doctrine\Persistence\ObjectManager;
 use DoctrineModule\Persistence\ObjectManagerAwareInterface;
 use DoctrineModule\Persistence\ProvidesObjectManager;
 
